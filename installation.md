@@ -63,7 +63,7 @@ An example of this configuration is:
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'http://test.explorer.btcz.app',
+      url: 'http://explorer.btcz.app',
     },
     testnet: {
       provider: 'insight',
