@@ -46,7 +46,7 @@ var config = {
       },
       testnet: {
         provider: 'insight',
-        url: 'http://test.explorer.btcz.app',
+        url: 'https://test.explorer.btcz.app',
       },
     }
   },
@@ -63,7 +63,8 @@ var config = {
     fetchInterval: 60, // in minutes
   },
   // To use email notifications uncomment this:
-  // emailOpts: {
+   emailOpts: {
+     enable: false,
   //  host: 'localhost',
   //  port: 25,
   //  ignoreTLS: true,
@@ -76,7 +77,7 @@ var config = {
   //    livenet: 'https://insight.bitpay.com/tx/{{txid}}',
   //    testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
   //  },
-  //},
+  },
   //
   // To use sendgrid:
   // var sgTransport = require('nodemail-sendgrid-transport');
